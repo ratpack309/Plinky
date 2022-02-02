@@ -29,7 +29,6 @@ public class PlayerDrop : MonoBehaviour
     private void OnMouseOver()
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition) + mouseOffset;
-        Debug.Log(mousePos);
     }
 
     private void OnMouseEnter()
